@@ -190,7 +190,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
     startAnswerTimer();
     // Congratulations message + correct answer for 5 seconds
     var output = "<h3>RIGHT YOU ARE!</h3>";
-    output += "<img src='./assets/images/win"+questionCounter+".gif'>"
+    output += "<img src='./assets/images/win"+questionCounter+".GIF'>"
     $(".stage").html(output);
   }
   
