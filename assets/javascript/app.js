@@ -212,7 +212,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
       incorrect++;
     }
     output += "<h4 class='correction'>The correct answer was "+correct+".</h4>";
-    output += "<img src='./assets/images/fail"+questionCounter+".GIF'>";
+    output += "<img src='./assets/images/fail"+questionCounter+".gif'>";
     $(".stage").html(output);
   
   }
