@@ -79,7 +79,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
   function startGame() {
     var startButton = $("<button>");
     $(startButton).addClass(".start");
-    $(startButton).html("LET'S DO IT!");
+    $(startButton).html("IT'S GO TIME!");
     $(".stage").html("<h2>Hero!!!</h2> <p>Do you have the knowledge it takes to be a superhero?!</p>");
     $(".stage").append(startButton);
   
@@ -190,7 +190,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
     startAnswerTimer();
     // Congratulations message + correct answer for 5 seconds
     var output = "<h3>RIGHT YOU ARE!</h3>";
-    output += "<img src='./assets/images/teslagif.gif"+questionCounter+".gif'>";
+    output += "<img src='./assets/images/win"+questionCounter+".gif'>"
     $(".stage").html(output);
   }
   
@@ -212,7 +212,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
       incorrect++;
     }
     output += "<h4 class='correction'>The correct answer was "+correct+".</h4>";
-    output += "<img src='./images/deadpool"+questionCounter+".gif'>";
+    output += "<img src='./assets/images/fail"+questionCounter+".GIF'>";
     $(".stage").html(output);
   
   }

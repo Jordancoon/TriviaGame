@@ -31,7 +31,7 @@
     margin: 1rem 0; }
   
   p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     margin-bottom: 20px; }
   
   button {
@@ -44,12 +44,12 @@
     text-align: center;
     background: url("../images/marvel.jpg");
     background-position: center center;
-    background-size: cover;
+    background-size: auto;
     background-attachment: fixed;
     /* stage */ }
     .wrap .logo {
       position: relative;
-      top: 4rem;
+      top: 1.2rem;
       padding-top: 4rem;
       z-index: 100; }
     .wrap .deadpool {
@@ -57,20 +57,12 @@
       bottom: -200px;
       right: 10px;
       z-index: 200; }
-    .wrap .carl {
+    .wrap .deadpoolcaption {
       position: absolute;
-      top: 0px;
-      right: 30px;
-      z-index: 200;
-      animation: 3s ease-in-out 0s normal none infinite swing;
-      transform-origin: center top; }
-  @keyframes swing {
-    0% {
-      transform: rotate(2deg); }
-    50% {
-      transform: rotate(-2deg); }
-    100% {
-      transform: rotate(2deg); } }
+      bottom: -100px;
+      right: 10px;
+      z-index: 200;}
+
     .wrap .stage {
       display: flex;
       flex-direction: column;
@@ -81,7 +73,7 @@
       min-height: 480px;
       border-radius: 10px;
       border: 6px solid #ec1b3a;
-      background-color: white;
+      background-color: #fafafa;
       box-shadow: 5px 6px 2px 3px rgba(5, 48, 85, 0.1);
       margin: 0 auto;
       padding: 2rem;
@@ -93,13 +85,14 @@
         height: auto; }
       .wrap .stage h4.timer {
         position: relative;
-        top: -20px;
+        top: -15px;
         text-transform: uppercase;
+        font-size: 1.5rem;
         color: #ec1b3a; }
         .wrap .stage h4.timer span {
           color: #ec1b3a; }
       .wrap .stage .correction {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         color: #ec1b3a;
         margin-bottom: 1rem; }
       .wrap .stage button {
@@ -119,7 +112,7 @@
           color: #fafafa; }
       .wrap .stage table {
         margin: 0 auto;
-        font-size: 1.2rem; }
+        font-size: 1.5rem; }
         .wrap .stage table tr td {
           padding: .4rem; }
         .wrap .stage table tr .right {
@@ -136,7 +129,7 @@
           margin-bottom: 0.5rem;
           padding: 0.5rem;
           list-style: none;
-          font-size: 1.2rem;
+          font-size: 1.5rem;
           border: 1px solid #000000;
           border-radius: 4px;
           cursor: pointer;
@@ -150,4 +143,3 @@
           color: #fafafa;
           pointer-events: none; }
   
-  /* wrap */
