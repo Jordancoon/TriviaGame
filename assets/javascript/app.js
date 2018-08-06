@@ -190,7 +190,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
     startAnswerTimer();
     // Congratulations message + correct answer for 5 seconds
     var output = "<h3>RIGHT YOU ARE!</h3>";
-    output += "<img src='./assets/images/win"+questionCounter+".GIF'>"
+    output += "<img src='./assets/images/win"+questionCounter+".gif'>"
     $(".stage").html(output);
   }
   
@@ -212,7 +212,7 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
       incorrect++;
     }
     output += "<h4 class='correction'>The correct answer was "+correct+".</h4>";
-    output += "<img src='./assets/images/fail"+questionCounter+".GIF'>";
+    output += "<img src='./assets/images/fail"+questionCounter+".gif'>";
     $(".stage").html(output);
   
   }
