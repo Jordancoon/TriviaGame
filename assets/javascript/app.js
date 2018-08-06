@@ -205,10 +205,10 @@ function Question (question, a1, a2, a3, a4, correctAnswer) {
     // update Score
     var output;
     if (ranOutofTime === true) {
-      output = "<h3>YOU RAN OUT OF TIME.</h3>";
+      output = "<h3>WAH WAH WAH! OUT OF TIME!</h3>";
       unanswered++;
     } else {
-      output = "<h3>NO, THAT IS INCORRECT.</h3>";
+      output = "<h3>KERSPLAT!! WRONG!!</h3>";
       incorrect++;
     }
     output += "<h4 class='correction'>The correct answer was "+correct+".</h4>";
