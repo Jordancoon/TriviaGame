@@ -52,14 +52,20 @@
       top: 1.2rem;
       padding-top: 4rem;
       z-index: 100; }
+      .wrap .poster {
+        position: absolute;
+        bottom: 100px;
+        right: 10px;
+        z-index: 100;
+      }
     .wrap .deadpool {
       position: absolute;
-      bottom: -200px;
+      bottom: -10px;
       right: 10px;
       z-index: 200; }
-    .wrap .deadpoolcaption {
+    .wrap .caption {
       position: absolute;
-      bottom: -100px;
+      bottom: 300px;
       right: 10px;
       z-index: 200;}
 
